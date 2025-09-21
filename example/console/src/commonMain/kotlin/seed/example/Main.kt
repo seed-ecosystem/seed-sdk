@@ -1,11 +1,11 @@
 package seed.example
 
-import seed.client.engine.SeedEngine
-import seed.client.engine.SeedEngineMessage
-import seed.client.engine.SeedEngineMessageData
-import seed.client.engine.SeedEngineMessageNonce
-import seed.client.engine.SeedEngineMessageSignature
-import seed.client.engine.SeedEngineQueueId
+import seed.engine.SeedEngine
+import seed.engine.SeedEngineMessage
+import seed.engine.SeedEngineMessageData
+import seed.engine.SeedEngineMessageNonce
+import seed.engine.SeedEngineMessageSignature
+import seed.engine.SeedEngineQueueId
 import kotlin.random.Random
 
 private val url = "ws://localhost:8080/ws"

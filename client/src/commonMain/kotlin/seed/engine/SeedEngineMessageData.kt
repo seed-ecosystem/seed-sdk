@@ -1,4 +1,4 @@
-package seed.client.engine
+package seed.engine
 
 import kotlin.io.encoding.Base64.Default as Base64
 

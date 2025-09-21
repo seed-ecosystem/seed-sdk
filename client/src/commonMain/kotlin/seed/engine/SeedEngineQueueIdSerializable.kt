@@ -1,4 +1,4 @@
-package seed.client.engine
+package seed.engine
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerializationException

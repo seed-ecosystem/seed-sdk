@@ -1,4 +1,4 @@
-package seed.client.engine
+package seed.engine
 
 // Auto-Increments. Serves as a proof that you received
 // all messages before.

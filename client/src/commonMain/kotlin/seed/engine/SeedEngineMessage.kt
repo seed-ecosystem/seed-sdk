@@ -1,4 +1,4 @@
-package seed.client.engine
+package seed.engine
 
 public data class SeedEngineMessage(
     val nonce: SeedEngineMessageNonce,

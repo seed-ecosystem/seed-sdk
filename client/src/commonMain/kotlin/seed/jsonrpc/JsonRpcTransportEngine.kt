@@ -33,7 +33,6 @@ internal class JsonRpcTransportEngine(
                     val text = frame.readText()
                     println("<< $text")
                     val envelope = json.decodeJsonRpcEnvelope(text)
-                    println(envelope)
                     incoming.send(envelope)
                 }
             }

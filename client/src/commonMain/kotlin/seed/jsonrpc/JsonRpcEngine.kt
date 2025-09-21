@@ -119,7 +119,7 @@ internal class JsonRpcEngine(
                 background: CoroutineScope,
             ) -> Unit,
         ) {
-            client.webSocket({ this.url.takeFrom(url) }) {
+            webSocket({ this.url.takeFrom(url) }) {
                 val session = this
                 coroutineScope {
                     val foreground = this
